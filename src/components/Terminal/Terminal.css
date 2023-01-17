@@ -90,6 +90,16 @@
     }
 }
 
+@media screen and (min-width:360px) {
+    .terminal-wrapper {
+        height: 100px;
+        width: 250px;
+    }
+    .terminal-container {
+        font-size: 11px;
+    }
+}
+
 @media screen and (min-width:480px) {
     .terminal-wrapper {
         height: 150px;

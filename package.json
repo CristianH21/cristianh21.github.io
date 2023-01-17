@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack serve --config webpack.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production"
   },
   "dependencies": {
